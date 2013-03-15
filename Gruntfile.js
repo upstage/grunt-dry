@@ -15,6 +15,14 @@ module.exports = function(grunt) {
     jshint: {
       options: { jshintrc: '.jshintrc' },
       all: ['Gruntfile.js', 'tasks/*.js']
+    },
+
+    dry: {
+      tests: {
+        files: {
+          'test/results/test.less': ['test/fixtures/bootstrap.css']
+        }
+      }
     }
 
   });
@@ -23,6 +31,6 @@ module.exports = function(grunt) {
 
   grunt.loadNpmTasks('grunt-contrib-jshint');
 
-  grunt.registerTask('default', ['jshint']);
+  grunt.registerTask('default', ['jshint', 'dry:tests']);
 
 };
