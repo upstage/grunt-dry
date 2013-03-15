@@ -20,7 +20,7 @@ module.exports = function(grunt) {
     dry: {
       tests: {
         files: {
-          'test/results/test.less', ['test/fixtures/bootstrap.css']
+          'test/results/test.less': ['test/fixtures/bootstrap.css']
         }
       }
     }
@@ -31,6 +31,6 @@ module.exports = function(grunt) {
 
   grunt.loadNpmTasks('grunt-contrib-jshint');
 
-  grunt.registerTask('default', ['jshint']);
+  grunt.registerTask('default', ['jshint', 'dry:tests']);
 
 };
