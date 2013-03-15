@@ -2,24 +2,51 @@
   "name": "grunt-dry",
   "version": "0.1.0",
   "description": "Grunt plugin using dry to convert CSS to LESS.",
+  "homepage": "https://github.com/assemble/grunt-dry/",
   "main": "Gruntfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/assemble/grunt-dry.git"
+    "url": "git://assemble.github.com/assemble/grunt-dry.git"
+  },
+  "bugs": {
+    "url": "git://assemble.github.com/assemble/grunt-dry/issues"
   },
   "keywords": [
+    "css 2 less",
+    "css2less",
+    "css to less",
+    "css-to-less",
+    "convert css to less",
     "grunt",
+    "grunt-dry",
     "dry",
-    "css",
-    "less"
+    "refactor css"
+    "refactor"
   ],
-  "author": "Brian Woodward",
-  "license": "MIT",
+  "author": {
+    "name": "assemble",
+    "url": "https://github.com/assemble/assemble"
+  },
+  "contributors": [
+    {
+      "name": "Brian Woodward",
+      "url": "https://github.com/doowb"
+    },
+    {
+      "name": "Jon Schlinkert",
+      "url": "https://github.com/jonschlinkert"
+    }
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://assemble.github.com/assemble/grunt-dry/blob/master/LICENSE-MIT"
+    }
+  ],
   "readmeFilename": "README.md",
-  "gitHead": "611b7baae743679266419fc227aef0d31e74b64a",
   "dependencies": {
     "dry": "~0.1.1"
   },
