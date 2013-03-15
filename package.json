@@ -1,0 +1,30 @@
+{
+  "name": "grunt-dry",
+  "version": "0.1.0",
+  "description": "Grunt plugin using dry to convert CSS to LESS.",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/assemble/grunt-dry.git"
+  },
+  "keywords": [
+    "grunt",
+    "dry",
+    "css",
+    "less"
+  ],
+  "author": "Brian Woodward",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "611b7baae743679266419fc227aef0d31e74b64a",
+  "dependencies": {
+    "dry": "~0.1.1"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "~0.3.0"
+  }
+}
